@@ -1,0 +1,76 @@
+# 🛡️ Voice Scam Interceptor - Safe Requirements Installation
+# ==========================================================
+# Install in this specific order to avoid conflicts
+
+# 1. Core Python packages (install first)
+setuptools>=65.0.0
+wheel>=0.38.0
+pip>=22.0.0
+
+# 2. Numerical computing foundation
+numpy>=1.24.0
+scipy>=1.11.0
+
+# 3. Data processing
+pandas>=2.0.0
+
+# 4. PyTorch ecosystem (critical for AI)
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# 5. Audio processing libraries
+librosa>=0.10.0
+soundfile>=0.12.0
+audioread>=3.0.0
+
+# 6. Machine learning
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# 7. Transformers and AI models
+transformers>=4.35.0
+tokenizers>=0.15.0
+safetensors>=0.4.0
+
+# 8. Whisper (install after PyTorch)
+openai-whisper>=20231117
+
+# 9. Audio capture and processing
+pyaudio>=0.2.11
+
+# 10. Text-to-speech
+pyttsx3>=2.90
+
+# 11. Web framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+websockets>=12.0
+
+# 12. Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.17.0
+
+# 13. GUI libraries
+# Note: tkinter comes with Python, but these enhance it
+pillow>=10.0.0
+
+# 14. Optional: Advanced audio analysis
+# aubio>=0.4.9  # Uncomment if needed
+
+# 15. Optional: Voice activity detection
+#webrtcvad>=2.0.10  # Uncomment if needed
+
+# 16. Optional: Advanced TTS
+elevenlabs>=0.2.0  # Uncomment if you have API key
+
+# 17. Development tools (optional)
+# pytest>=7.4.0
+# black>=23.9.0
+# flake8>=6.1.0
+
+# 18. Networking and utilities
+requests>=2.31.0
+aiofiles>=23.0.0
+python-dotenv>=1.0.0
